@@ -6,6 +6,19 @@ package com.bridgelabz;
 public class AdressBook_Oops {
     
         private String firstName, lastName, city, state, zip, cellNum, email;
+        public AdressBook_Oops(){
+
+        }
+        public AdressBook_Oops(String Firstname, String LastName,String City, String State, String Zip, String CellNum,String Email){
+            this.firstName=Firstname;
+            this.lastName=LastName;
+            this.city=City;
+            this.state=State;
+            this.zip=Zip;
+            this.cellNum=CellNum;
+            this.email=Email;
+
+        }
       
         public void setFirstName (String fname){
             this.firstName = fname;
